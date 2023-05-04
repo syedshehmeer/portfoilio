@@ -22,7 +22,7 @@ export const Navbar = () => {
               Download CV
             </button>
           </a>
-          <ul className="w-2/4 ml-10 hidden flex w-full justify-between pr-10 text-lg font-bold md:flex">
+          <ul className="w-3/4 ml-10 hidden flex w-full justify-between pr-10 text-lg font-bold md:flex">
             <Link href="/#home">
               <li className="hover:border-b border-black cursor-pointer mr-5">
                 Home
