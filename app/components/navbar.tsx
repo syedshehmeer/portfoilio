@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="w-full p-5 flex justify-between sticky top-0 h-15 bg-white shadow-lg shadow-gray-200 text-black">
-        <strong className="mx-10 font-bolder text-2xl cursor-point  er">
+        <strong className="mx-5 font-bolder text-2xl cursor-point  er">
           SSA
         </strong>
         <div className="flex w-1/2 justify-end items-center">
@@ -66,10 +66,13 @@ export const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-between text-black">
               <strong className=" font-bolder text-2xl ">SSA</strong>
               <div onClick={handleNav}>
-                <AiOutlineClose size={20} className=" cursor-pointer" />
+                <AiOutlineClose
+                  size={20}
+                  className="text-black cursor-pointer"
+                />
               </div>
             </div>
             <div className="flex w-full ">
