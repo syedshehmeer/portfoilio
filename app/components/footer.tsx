@@ -13,7 +13,7 @@ export const Footer = () => {
           <FaGithub size={25} className="text-white cursor-pointer" />
         </a>
         <a href="https://www.linkedin.com/in/sshehmeer/">
-          <FaLinkedinIn size={25} className="text-white cursor-pointer" />
+          <FaLinkedinIn size={25} className="ml-5 text-white cursor-pointer" />
         </a>
       </div>
     </div>

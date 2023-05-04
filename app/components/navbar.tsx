@@ -12,7 +12,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="w-full p-5 flex justify-between sticky top-0 h-15 bg-white shadow-lg shadow-gray-200">
+      <div className="w-full p-5 flex justify-between sticky top-0 h-15 bg-white shadow-lg shadow-gray-200 text-black">
         <strong className="mx-10 font-bolder text-2xl cursor-point  er">
           SSA
         </strong>
