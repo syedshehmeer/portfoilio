@@ -18,11 +18,11 @@ export const Navbar = () => {
         </strong>
         <div className="flex w-1/2 justify-end items-center">
           <a href="SyedShehmeerAshfaq.pdf" download>
-            <button className="bg-black text-white px-2 mx-2 rounded items-center justify-center">
+            <button className="md:flex hidden min-w-[120px] bg-black text-white p-2 mx-5 rounded items-center justify-center">
               Download CV
             </button>
           </a>
-          <ul className="w-3/4 ml-10 hidden flex w-full justify-between pr-10 text-lg font-bold md:flex">
+          <ul className="hidden gap-5 justify-between pr-10 text-lg font-bold md:flex">
             <Link href="/#home">
               <li className="hover:border-b border-black cursor-pointer mr-5">
                 Home
