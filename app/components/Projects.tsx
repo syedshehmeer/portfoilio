@@ -26,6 +26,16 @@ const data = [
     demoLink: "https://frontend-fanclub.onrender.com/",
   },
   {
+    name: "Learning App",
+    description:
+      "Built a MERN-based platform for a web development bootcamp, where user can subscribe to a course with the integrated payment via stripe.",
+    mediaSrc: "/learning_app.mp4",
+    mediatype: "video",
+    techStack: ["React", "Express", "NodeJS", "MongoDB", "TailwindCSS"],
+    codeLink: "https://github.com/syedshehmeer/learningApp",
+    demoLink: "https://learning-app-blond.vercel.app/",
+  },
+  {
     name: "Safety Equipment Detection",
     description:
       "Developed a frontend for an AI application on desktop using flutter. It was a safety equipment detection and monitoring application.",
